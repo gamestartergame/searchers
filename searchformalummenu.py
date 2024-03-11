@@ -10,7 +10,7 @@ website =input("what website do you want to search MalumMenu on (some websites m
 f = open(website + " with MalumMenu.txt", "w")
 f.write("if theres nothing in this file and you searched it means you hit a error\n")
 numofresults =input("how many results do you want? (limit 197) \n")
-yes_no =input("do you want to open all of the found things? Y or N")
+yes_no =input("do you want to open all of the found things? Y or N\n")
 yes_no =yes_no.upper()
 input("press enter to start searching for MalumMenu\n")
 print("opening console for debug")
