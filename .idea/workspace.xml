@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="880a16ac-681b-42bf-9941-dc14efb80b8b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/searchformalummenu.py" beforeDir="false" afterPath="$PROJECT_DIR$/searchformalummenu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/searchforcat.exe" beforeDir="false" afterPath="$PROJECT_DIR$/output/searchforcat.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/youtube.com with MalumMenu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/youtube.com with MalumMenu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchforcat.py" beforeDir="false" afterPath="$PROJECT_DIR$/searchforcat.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

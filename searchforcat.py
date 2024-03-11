@@ -11,6 +11,8 @@ cat = input("cats:\n")
 f = open("cats.txt", "w")
 f.write("if theres nothing in this file and you searched it means you hit a error\n")
 numofresults =input("how many results do you want? (limit 197) \n")
+yes_no =input("do you want to open all the videos found? (Y or N\n")
+yes_no.upper()
 input("press enter to start searching for cats\n")
 print("opening console for debug")
 cmd = subprocess.Popen("cmd.exe /K cd c:/")
@@ -29,8 +31,13 @@ def google_search(count):
   f.write("found results with "+ cat +" result number: "+ str(count) +"\n")
   f.write(res + "\n")
   print("found: " + res +" "+ str(count) + " writed to file: " +f.name)
- cmd.terminate()
- time.sleep(1)
+  if yes_no =="Y":
+   os.system("start " + res)
+   cmd.terminate()
+  time.sleep(0.5)
+ else:
+  cmd.terminate()
+  time.sleep(0.2)
 
 
 
