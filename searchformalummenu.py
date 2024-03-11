@@ -36,8 +36,7 @@ def google_search(count):
    cmd.terminate()
    time.sleep(1)
  else:
-   os.system("start " + res)
- cmd.terminate()
+  cmd.terminate()
  time.sleep(1)
 
 
